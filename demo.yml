@@ -1,0 +1,25 @@
+
+backend:
+  port: 13001
+  host: localhost
+
+charts:
+- title: chart nr 1
+  traces:
+  - name: Signal b
+    path: /signal/a
+  - name: Signal a
+    path: /signal/b
+  - name: "Signal ccccc"
+    path: /signal/c
+- title: chart nr 2
+
+labels:
+- title: Bla bla value
+  topic: /a/bla
+- title: Another topic?
+  topic: /b/bla
+- title: Same topic!
+  topic: /b/bla
+- title: Again topic!
+  topic: /a/bla
